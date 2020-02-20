@@ -1,4 +1,3 @@
-import csv
 def abc():
 	print '123'
 abc()
