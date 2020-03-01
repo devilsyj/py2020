@@ -7,6 +7,9 @@ class Fruit:
         self.__color = 'red'   #实例属性，访问必须先实例化
         self.num = 100
 
+    def counter(self):
+        self.price += 1
+
     def funcname(self):
         return inspect.stack()[1][3]
         print '2020'
@@ -17,8 +20,11 @@ class Fruit:
 
 
 if __name__ ==  "__main__":
-    print '111'
     apple = Fruit()
+    print apple.price
+    apple.counter()
+    print apple.price
+    print Fruit.price
     apple.test()
     # print dir(Fruit)
     # print apple
