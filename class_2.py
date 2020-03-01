@@ -1,4 +1,3 @@
-#coding:UTF-8
 class MyClass():
 
     def func1(self):
