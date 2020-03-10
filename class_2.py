@@ -1,4 +1,4 @@
-class MyClass():
+class MyClass:
 
     def func1(self):
         print 'func1'
